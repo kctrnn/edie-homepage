@@ -1,9 +1,9 @@
-window.addEventListener('click', () => {
-  const menu = document.querySelector('.menu');
+window.addEventListener('load', () => {
   const burger = document.querySelector('.burger');
+  const menu = document.querySelector('.menu');
 
   burger?.addEventListener('click', () => {
-    menu.classList.toggle('active');
     burger.classList.toggle('active');
+    menu.classList.toggle('active');
   });
 });

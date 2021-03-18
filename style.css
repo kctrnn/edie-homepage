@@ -282,6 +282,8 @@ h4 {
 }
 
 .contact__input {
+  width: 100%;
+
   outline: none;
   border: none;
   padding: 1.5rem 2rem;
