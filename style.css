@@ -27,7 +27,7 @@ html {
   font-size: 62.5%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   html {
     font-size: 50%;
   }
